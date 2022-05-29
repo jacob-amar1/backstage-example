@@ -8,4 +8,4 @@ spec:
   owner: backend-test-team
   system: kafka
   dependencyOf:
-    - component:default/kafka-consumer-test
+    - component:kafka-consumer-test
