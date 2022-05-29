@@ -8,5 +8,5 @@ spec:
   lifecycle: experimental
   owner: backend-test-team
   system: kafka
-  #dependsOn:
-  #  - resource:default/kafka-s3-bucket
+  dependsOn:
+    - resource:default/kafka-s3-bucket
