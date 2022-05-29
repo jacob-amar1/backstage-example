@@ -7,4 +7,5 @@ spec:
   type: s3-bucket
   owner: backend-test-team
   system: kafka
-  dependencyOf: kafka-consumer-test
+  dependencyOf:
+    - component:default/kafka-consumer-test
