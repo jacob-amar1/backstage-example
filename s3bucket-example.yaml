@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: kafka-s3-bucket
-  description: Stores artist details
+  description: kafka s3 bucket
 spec:
   type: s3-bucket
   owner: backend-test-team
